@@ -16,8 +16,6 @@ client = discord.Client()
 
 client.run
 
-
-
 # prefix is "!" to do commands on a discord server
 intents = discord.Intents.default()
 intents.message_content = True #Required to read messages
